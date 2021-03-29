@@ -31,6 +31,8 @@ BBedit will fall back to the community edition after 30 days (which is ok)!
 
 ## Install XCode
 
+ Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging.
+
 Open the App Store and search for XCode.
 
 [Xcode 12 - Apple Developer](https://developer.apple.com/xcode/ "Xcode 12 - Apple Developer")
@@ -40,6 +42,12 @@ Please start XCode after installation... you will be asked installing some addit
 
 
 ## Install the XCode Command Line Tools
+
+The Command Line Tools Package is a small self-contained
+package available for download separately from Xcode
+and that allows you to do command line development in macOS
+which is consists of the macOS SDK and command-line tools such as Clang,
+which are installed at this location: `/Library/Developer/CommandLineTools`.
 
 Open a terminal window and enter the following command. The installation will take some minutes.
 
@@ -99,8 +107,21 @@ Homebrew/homebrew-cask (git revision 98c2a; last commit 2020-10-16)
 
 ## Install various JDK's (8, 11, 16 or later)
 
-The last complete JDK is the **JDK 8 (LTS) from Oracle**. In order to download the Oracle
-JDK's you need to create an account at Oracle:
+The Java Development Kit (JDK) is one of three core technology packages used in
+Java programming, along with the JVM (Java Virtual Machine)
+and the JRE (Java Runtime Environment).
+It's important to differentiate between these three technologies,
+as well as understanding how they're connected:
+
+- The JVM is the Java platform component that executes programs.
+- The JRE is the on-disk part of Java that creates the JVM.
+
+The JDK allows developers to create Java programs that can be executed and
+run by the JVM and JRE.
+
+
+The last _JDK_ including _Java Fx_ is the **JDK 8 (LTS) from Oracle**. In order to download the Oracle
+_JDK's_ you need to create an account at Oracle:
 
 - [Oracle Sign in / Sing up](https://login.oracle.com/mysso/signon.jsp)
 
@@ -235,6 +256,10 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
 
 ## Install Maven
 
+Apache Maven is a software project management and comprehension tool.
+Based on the concept of a project object model (POM), Maven can manage a project's build,
+reporting and documentation from a central piece of information.
+
 Open a terminal and enter:
 
 ```
@@ -260,6 +285,9 @@ OS name: "mac os x", version: "10.15.7", arch: "x86_64", family: "mac"
 
 
 ## Install Gradle
+
+Gradle is an open-source build automation tool
+that is designed to be flexible enough to build almost any type of software.
 
 Open a terminal and enter:
 
@@ -294,6 +322,11 @@ OS:           Mac OS X 10.15.7 x86_64
 
 
 ## Install IntelliJ Ultimate Edition
+
+IntelliJ IDEA Ultimate is a superset of most IntelliJ platform-based IDEs.
+If the bundled language plugins are enabled, it includes support for all
+technologies that are available within our more specific IDEs,
+such as PyCharm, WebStorm, PHPStorm, and so on.
 
 Please create an account at Jet Brains. Use your academic mail address:
 
