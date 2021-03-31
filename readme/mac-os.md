@@ -45,8 +45,8 @@ Please start XCode after installation... you will be asked installing some addit
 
 The Command Line Tools Package is a small self-contained
 package available for download separately from Xcode
-and that allows you to do command line development in macOS
-which is consists of the macOS SDK and command-line tools such as Clang,
+ that allows you to do command line development in macOS.
+It consists of the macOS SDK and command-line tools such as Clang,
 which are installed at this location: `/Library/Developer/CommandLineTools`.
 
 Open a terminal window and enter the following command. The installation will take some minutes.
@@ -78,7 +78,7 @@ open-source software using your terminal.
 You’ll use Homebrew to install developer tools like Maven, Gradle, Python, Ruby, Node.js, and more.
 
 Check the availability of home brew: just type ```brew -v``` in the terminal.
-If you have it it will respond with the version number installed.
+If you have it will respond with the version number installed.
 
 If home brew is not available yet, you should install it now:
 
@@ -129,7 +129,7 @@ Here you can download the various JDK's:
 
 - [Java SE - Downloads | Oracle Technology Network | Oracle](https://www.oracle.com/java/technologies/javase-downloads.html )
 
-Or download the Adopt Open JDK's (the OpenJDK8 has fewer packages than the Oracle JDK8):
+Or download the Adopt Open JDK's (the OpenJDK8 has fewer packages - _no Java Fx_ - than the Oracle JDK8):
 
 - [AdoptOpenJDK - Open source, prebuilt OpenJDK binaries](https://adoptopenjdk.net/ )
 
@@ -155,7 +155,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
 
 ## Install a JDK Console Switch
 
-This tutorial will guide you on how to switch JAVA versions on your MacOS device.
+This tutorial will guide you on how to switch JAVA versions on your macOS device.
 This can be useful for working with apps which don’t work with updated JAVA versions.
 First, you need to make sure you have multiple JAVA versions installed.
 
@@ -183,15 +183,11 @@ Matching Java Virtual Machines (7):
 
 <br/>
 
-For the command switch we need to include 4 or more lines (depending on the number of JDK's) to your  **.bash_profile** file.
+For the command switch we need to include four or more lines (depending on the number of JDK's) to your  **.bash_profile** file.
 This file is in your _user home folder_.
-If you cannot see the hidden files in your _user home folder_: select a folder and type the combination :
+If you cannot see the hidden files in your _user home folder_: select a folder and type the combination `[cmd] + [shift] + [.]`:
 
-```
-[cmd] + [shift] + [.]
-```
-
-The graphics shows how to find the file **.bash_profile**.
+The illustration shows how to find the file **.bash_profile**.
 
 <br/>
 
@@ -456,5 +452,7 @@ Open the Gluon web page: download and install the latest version og Scene Builde
 [Scene Builder - Gluon](https://gluonhq.com/products/scene-builder/ "Scene Builder - Gluon")
 
 Open the preferences' dialog in intelliJ and create a link to the installed software.
+
+<br/>
 
 ![intellij-add-scene-builder.png](intellij-add-scene-builder.png)
