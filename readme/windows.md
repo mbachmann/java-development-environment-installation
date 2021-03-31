@@ -22,7 +22,7 @@ The following tool stack is supporting you to do various tasks more easily.
 
 ## Install an Archiver und Extractor Tool
 
-There are several options of powerful archivers and extractors on windows
+There are several options of powerful archivers and extractors on Windows:
 
 - WinRAR
 - 7Zip
