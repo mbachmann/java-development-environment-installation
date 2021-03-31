@@ -302,7 +302,7 @@ j16 () {
 
 ### 3. Create an Environment Variable JAVA_HOME
 
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
+Follow the instructions at [Cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `C:\Program Files\Java\jdk-16`.
 
 <br/>
@@ -424,7 +424,7 @@ Unzip and copy the maven files to a folder with a short file name without any sp
 ### 3. Create a Windows Environment Variable _MAVEN_ROOT_
 
 Create a Windows Environment Variable `MAVEN_ROOT` which points to `C:\dev\tools\apache-maven<version>`.
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
+Follow the instructions at [Cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create variable `MAVEN_ROOT` which points to you latest _maven version_: e.g. `C:\dev\tools\apache-maven-3.6.3`.
 
 <br/>
@@ -494,7 +494,7 @@ Unzip and copy the gradle files to a folder with a short file name without any s
 ### 3. Create a Windows Environment Variable _GRADLE_ROOT_
 
 Create a Windows Environment Variable `GRADLE_ROOT` which points to `C:\dev\tools\gradle-<version>`.
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
+Follow the instructions at [Cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create the variable `GRADLE_ROOT` which points to you latest _maven version_: e.g. `C:\dev\tools\gradle-<version>`.
 
 <br/>
