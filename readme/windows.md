@@ -314,7 +314,7 @@ and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `
 <br/>
 
 
-### 4. Inject %JAVA_HOME%\bin to your Path
+### 4. Inject _%JAVA_HOME%\bin_ to your Path
 
 Open the _path dialog_ from the _environment system variables_:
 
