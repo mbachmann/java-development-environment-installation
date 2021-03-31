@@ -78,7 +78,7 @@ Mke sure you download the full version including git.
 
 1. Unzip and copy the Cmder files to a folder with a short file name without any special characters e.g. `C:\dev\tools\cmder`.
 2. Create a Windows Environment Variable `CMDER_ROOT` which points to `C:\dev\tools\cmder`
-3. Start cmder and set the console to bash
+3. Start Cmder and set the console to bash
 4. Check the git version
 5. Check the installation path of git
 
@@ -117,7 +117,7 @@ Click at the bottom of system variables area  to `[New]`:
 
 <br/>
 
-Add the variable `CMDER_ROOT` which points to your install path of cmder, e.g. `C:\dev\tools\cmder`
+Add the variable `CMDER_ROOT` which points to your install path of Cmder, e.g. `C:\dev\tools\cmder`
 
 <br/>
 
@@ -133,7 +133,7 @@ The result is an _environment variable_ in the _system area_:
 
 <br/>
 
-###  3. Start cmder and set the console to bash
+###  3. Start Cmder and set the console to bash
 
 Click in the _Cmder window header_ with right mouse button and open the context menu. Choose settings ...
 
@@ -216,7 +216,7 @@ Or download the Adopt Open JDK's (the _OpenJDK8_ has fewer packages - _no Java F
 
 <br/>
 
-Verify the current Java version. Open a new **cmder** terminal:
+Verify the current Java version. Open a new **Cmder** terminal:
 
 ```
 java -version
@@ -347,7 +347,7 @@ Changes of environment variables are not reflected to already open terminals. Yo
 
 ### 6. Verify the Console Switch
 
-Open a new _cmder terminal_ and verify the _command switch_. You must use a new terminal
+Open a new _Cmder terminal_ and verify the _command switch_. You must use a new terminal
 since this terminal did not read the new configuration.
 
 Enter the commands:
@@ -401,7 +401,7 @@ reporting and documentation from a central piece of information.
 2. Unzip and copy the maven files to a folder with a short file name without any special characters (äöüéà) e.g. `C:\dev\tools\apache-maven-3.6.3`.
 3. Create a Windows Environment Variable `MAVEN_ROOT` which points to `C:\dev\tools\apache-maven<version>`
 4. Inject `%MAVEN_ROOT%\bin` to your Path.
-5. Start cmder and verify the maven version
+5. Start Cmder and verify the maven version
 
 ### 1. Download Maven
 
@@ -444,9 +444,9 @@ Add a new _path entry_ by clicking to new. Enter the expression `%MAVEN_ROOT%\bi
 
 <br/>
 
-### 5. Start cmder and verify the maven version
+### 5. Start Cmder and verify the maven version
 
-Open a _cmder terminal_ after installation and enter:
+Open a _Cmder terminal_ after installation and enter:
 
 ```
 mvn --version
@@ -473,7 +473,7 @@ that is designed to be flexible enough to build almost any type of software.
 2. Unzip and copy the Gradle files to a folder with a short file name without any special characters e.g. `C:\dev\tools\gradle-6.8.3`.
 3. Create a Windows Environment Variable `GRADLE_ROOT` which points to `C:\dev\tools\gradle-<version>`
 4. Inject `%GRADLE_ROOT%\bin` to your Path.
-5. Start cmder and verify the gradle version
+5. Start Cmder and verify the gradle version
 
 ### 1. Download Gradle
 
@@ -513,9 +513,9 @@ Add a new _path entry_ by clicking to new. Enter the expression `%GRADLE_ROOT%\b
 
 <br/>
 
-### 5. Start cmder and verify the gradle version
+### 5. Start Cmder and verify the gradle version
 
-Open a _cmder terminal_ after installation and enter:
+Open a _Cmder terminal_ after installation and enter:
 
 ```
 gradle --version
