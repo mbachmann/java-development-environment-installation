@@ -210,9 +210,11 @@ Here you can download the various JDK's:
 
 - [Java SE - Downloads | Oracle Technology Network | Oracle](https://www.oracle.com/java/technologies/javase-downloads.html )
 
-Or download the Adopt Open JDK's (the _OpenJDK8_ has fewer packages - _no Java Fx_ - than the Oracle JDK8):
+Or download an other Open JDK's (the _OpenJDK8_ has fewer packages - _no Java Fx_ - than the Oracle JDK8):
 
 - [AdoptOpenJDK - Open source, prebuilt _OpenJDK_ binaries](https://adoptopenjdk.net/ )
+- [Amazon Corretto](https://aws.amazon.com/de/corretto/)
+- [IBM Java SDK downloads](https://www.ibm.com/support/pages/java-sdk-downloads)
 
 <br/>
 
