@@ -14,7 +14,7 @@ The following tool stack is supporting you to do various tasks more easily.
 - [Install Gradle](#install-gradle)
 - [Install IntelliJ Ultimate Edition](#install-intellij-ultimate-edition)
 - [First start of IntelliJ Ultimate](#first-start-of-intellij-ultimate)
-- [Add the install path of Git](#add-the-install-path-of-git)
+- [Add the Install Path of Git](#add-the-install-path-of-git)
 - [Configure Cmder in IntelliJ](#configure-cmder-in-intellij)
 - [Install additional IntelliJ Plugins](#install-additional-intellij-plugins)
 
@@ -92,8 +92,9 @@ Copy the _Cmder_ files to a folder with a short file name without any special ch
 
 <br/>
 
-### 2. Create a Windows Environment Variable `CMDER_ROOT` which points to `C:\dev\tools\cmder`
+### 2. Create a Windows Environment Variable `CMDER_ROOT`
 
+Create a Windows Environment Variable `CMDER_ROOT` which points to `C:\dev\tools\cmder`.
 Type in the _Windows search bar_ the name `sysdm.cpl`.
 
 <br/>
@@ -170,7 +171,7 @@ username@W10 /c/dev/tools/cmder
 
 ###  5. Check the install path of git
 
-Open a _Cmder terminal_ window and enter the following command.
+Open a _Cmder terminal_ window and enter the following command:
 
 ```
 which git
@@ -240,7 +241,7 @@ This tutorial will guide you on how to switch _JAVA versions_ on your Windows de
 This can be useful for working with apps which don’t work with updated JAVA versions.
 
 
-1. Open file explorer, navigate to `C:\Program Files\Java` and check you installed _JDK's_
+1. Open file explorer, navigate to `C:\Program Files\Java` and check your installed _JDK's_
 2. Update the file `user_profile.sh`
 3. Create an Environment Variable `JAVA_HOME`
 4. Inject `%JAVA_HOME%\bin` to your Path
@@ -248,7 +249,7 @@ This can be useful for working with apps which don’t work with updated JAVA ve
 6. Verify the Console Switch
 
 
-### 1. Open file explorer, navigate to `C:\Program Files\Java` and check you installed _JDK's_
+### 1. Open file explorer, navigate to C:\Program Files\Java and check your installed _JDK's_
 
 First, you need to make sure you have multiple JAVA versions installed.
 
@@ -264,7 +265,7 @@ The illustration shows three installed _jdk's_:
 - jdk-14
 - jdk-16
 
-### 2. Update the file `user_profile.sh`
+### 2. Update the file user_profile.sh
 
  In order to switch between the three _jdk's_ we must update the
  file `user_profile.sh` in the folder `%CMDER_ROOT\config` by following content:
@@ -299,9 +300,9 @@ j16 () {
 
 ```
 
-### 3. Create an Environment Variable `JAVA_HOME`
+### 3. Create an Environment Variable JAVA_HOME
 
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root-which-points-to-cdevtoolscmder)
+Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `C:\Program Files\Java\jdk-16`.
 
 <br/>
@@ -311,7 +312,7 @@ and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `
 <br/>
 
 
-### 4. Inject `%JAVA_HOME%\bin` to your Path
+### 4. Inject %JAVA_HOME%\bin to your Path
 
 Open the _path dialog_ from the _environment system variables_:
 
@@ -418,9 +419,10 @@ Unzip and copy the maven files to a folder with a short file name without any sp
 
 <br/>
 
-### 3. Create a Windows Environment Variable `MAVEN_ROOT` which points to `C:\dev\tools\apache-maven<version>`
+### 3. Create a Windows Environment Variable MAVEN_ROOT
 
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root-which-points-to-cdevtoolscmder)
+Create a Windows Environment Variable `MAVEN_ROOT` which points to `C:\dev\tools\apache-maven<version>`.
+Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create variable `MAVEN_ROOT` which points to you latest _maven version_: e.g. `C:\dev\tools\apache-maven-3.6.3`.
 
 <br/>
@@ -430,7 +432,7 @@ and create variable `MAVEN_ROOT` which points to you latest _maven version_: e.g
 <br/>
 
 
-### 4. Inject `%MAVEN_ROOT%\bin` to your Path.
+### 4. Inject %MAVEN_ROOT%\bin to your Path.
 
 Add a new _path entry_ by clicking to new. Enter the expression `%MAVEN_ROOT%\bin`.
 
@@ -482,14 +484,15 @@ Download the [binary-only file (version 6.8.3. or newer)](https://gradle.org/nex
 
 ### 2. Unzip and copy the gradle files.
 
-Unzip and copy the gradle files to a folder with a short file name without any special characters e.g. `C:\dev\tools\gradle-<version>`
+Unzip and copy the gradle files to a folder with a short file name without any special characters e.g. `C:\dev\tools\gradle-<version>`.
 
 ![gradle-install-folder.png](gradle-install-folder.png)
 
 
-### 3. Create a Windows Environment Variable `GRADLE_ROOT` which points to `C:\dev\tools\gradle-<version>`
+### 3. Create a Windows Environment Variable `GRADLE_ROOT`
 
-Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root-which-points-to-cdevtoolscmder)
+Create a Windows Environment Variable `GRADLE_ROOT` which points to `C:\dev\tools\gradle-<version>`.
+Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create the variable `GRADLE_ROOT` which points to you latest _maven version_: e.g. `C:\dev\tools\gradle-<version>`.
 
 <br/>
