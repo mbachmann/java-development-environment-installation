@@ -251,7 +251,7 @@ This can be useful for working with apps which don’t work with updated JAVA ve
 6. Verify the Console Switch
 
 
-### 1. Open file explorer, navigate to C:\Program Files\Java and check your installed _JDK's_
+### 1. Open file explorer, navigate to _C:\Program Files\Java_ and check your installed _JDK's_
 
 First, you need to make sure you have multiple JAVA versions installed.
 
@@ -302,7 +302,7 @@ j16 () {
 
 ```
 
-### 3. Create an Environment Variable JAVA_HOME
+### 3. Create an Environment Variable _JAVA_HOME_
 
 Follow the instructions at [Cmder](#2-create-a-windows-environment-variable-cmder_root)
 and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `C:\Program Files\Java\jdk-16`.
@@ -332,7 +332,7 @@ Add a new _path entry_ by clicking to new. Enter the expression `%JAVA_HOME%\bin
 
 <br/>
 
-### 5. Delete two PATH entries from the Java JDK installation
+### 5. Delete two _PATH entries_ from the Java _JDK_ installation
 
 Open the _path dialog_ from the _environment system variables_:
 
