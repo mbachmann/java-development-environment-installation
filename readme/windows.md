@@ -265,7 +265,7 @@ The illustration shows three installed _jdk's_:
 - jdk-14
 - jdk-16
 
-### 2. Update the file user_profile.sh
+### 2. Update the file _user_profile.sh_
 
  In order to switch between the three _jdk's_ we must update the
  file `user_profile.sh` in the folder `%CMDER_ROOT\config` by following content:
@@ -403,7 +403,9 @@ reporting and documentation from a central piece of information.
 4. Inject `%MAVEN_ROOT%\bin` to your Path.
 5. Start cmder and verify the maven version
 
-### 1. Download MavenOpen a browser and navigate to the page:
+### 1. Download Maven
+
+Open a browser and navigate to the page:
 
 [Maven – Download Apache Maven](https://maven.apache.org/download.cgi)
 
@@ -419,7 +421,7 @@ Unzip and copy the maven files to a folder with a short file name without any sp
 
 <br/>
 
-### 3. Create a Windows Environment Variable MAVEN_ROOT
+### 3. Create a Windows Environment Variable _MAVEN_ROOT_
 
 Create a Windows Environment Variable `MAVEN_ROOT` which points to `C:\dev\tools\apache-maven<version>`.
 Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
@@ -432,7 +434,7 @@ and create variable `MAVEN_ROOT` which points to you latest _maven version_: e.g
 <br/>
 
 
-### 4. Inject %MAVEN_ROOT%\bin to your Path.
+### 4. Inject _%MAVEN_ROOT%\bin_ to your Path.
 
 Add a new _path entry_ by clicking to new. Enter the expression `%MAVEN_ROOT%\bin`.
 
@@ -489,7 +491,7 @@ Unzip and copy the gradle files to a folder with a short file name without any s
 ![gradle-install-folder.png](gradle-install-folder.png)
 
 
-### 3. Create a Windows Environment Variable `GRADLE_ROOT`
+### 3. Create a Windows Environment Variable _GRADLE_ROOT_
 
 Create a Windows Environment Variable `GRADLE_ROOT` which points to `C:\dev\tools\gradle-<version>`.
 Follow the instructions at [cmder](#2-create-a-windows-environment-variable-cmder_root)
@@ -501,7 +503,7 @@ and create the variable `GRADLE_ROOT` which points to you latest _maven version_
 
 <br/>
 
-### 4. Inject `%GRADLE_ROOT%\bin` to your Path.
+### 4. Inject _%GRADLE_ROOT%\bin_ to your Path.
 
 Add a new _path entry_ by clicking to new. Enter the expression `%GRADLE_ROOT%\bin`.
 
