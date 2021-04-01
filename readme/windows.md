@@ -10,11 +10,12 @@ The following tool stack is supporting you to do various tasks more easily.
 - [Install Cmder - a flexible console for windows](#install-cmder-with-git)
 - [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
 - [Install a JDK Console Switch](#install-a-jdk-console-switch)
+- [Compile and run a Java Application from the Command Line](#compile-and-run-a-java-application-from-the-command-line)
 - [Install Maven](#install-maven)
 - [Install Gradle](#install-gradle)
 - [Install IntelliJ Ultimate Edition](#install-intellij-ultimate-edition)
 - [First start of IntelliJ Ultimate](#first-start-of-intellij-ultimate)
-- [Add the Install Path of Git](#add-the-install-path-of-git)
+- [Add the Installation Path of Git in IntelliJ](#add-the-installation-path-of-git-in-intellij)
 - [Configure Cmder in IntelliJ](#configure-cmder-in-intellij)
 - [Install additional IntelliJ Plugins](#install-additional-intellij-plugins)
 
@@ -26,6 +27,7 @@ There are several options of powerful archivers and extractors on Windows:
 
 - WinRAR
 - 7Zip
+- WinZip
 
 ### WinRAR
 
@@ -73,6 +75,20 @@ Mke sure you download the full version including git.
 
 <br/>
 
+### Display File Extensions and Hidden Files and Folder
+
+A lot of files folder are created with a dot at the beginning. Make sure you can see all your files in the file explorer.
+
+1. Open File Explorer; if you do not have an icon for this in the task bar; click Start, click Windows System, and then File Explorer.
+2. Click the View tab in File Explorer.
+3. Click the box next to File name extensions to see file extensions.
+4. Click the box next to Hidden items to see hidden files.
+
+<br/>
+
+![windows-show-extensions-and-hidden-files.png](windows-show-extensions-and-hidden-files.png)
+
+<br/>
 
 ### Install Cmder
 
@@ -393,6 +409,86 @@ username@W10 /c/dev/tools/cmder
 ```
 <br/>
 
+### Open Notepad++ directly in Cmder
+
+Create a file `notepad++` in the folder `%CMDER_ROOT\vendor\git-for-windows\usr\bin`.
+
+Copy the following content to the file `notepad++` (the path to **notepad++** is for the **64bit version of notepad++**).
+If you are using the **32Bit version** of notepad make sure to adapt the two path entries `"/c/Program Files/Notepad++/notepad++.exe"`
+to your 32bit notepad++.exe `"/c/Program Files (x86)/Notepad++/notepad++.exe"`.
+
+```
+#!/bin/sh
+
+die () {
+	echo "$*" >&2
+	exit 1
+}
+
+case "$1" in
+*/.git/*) ;; # needs LF line endings
+*) exec "/c/Program Files/Notepad++/notepad++.exe" "$1" || die "Could not launch notepad++.exe";;
+esac
+
+test $# = 1 ||
+die "Usage: $0 <file>"
+
+if test -f "$1"
+then
+	case "$(git config i18n.commitencoding 2>/dev/null)" in
+		''|utf-8|utf8) unix2dos.exe -m "$1";;
+		*) unix2dos.exe "$1";;
+	esac
+fi &&
+"/c/Program Files/Notepad++/notepad++.exe" "$1" &&
+dos2unix.exe "$1" &&
+case "$1" in
+*/COMMIT_EDITMSG|*\\COMMIT_EDITMSG)
+	! columns="$(git config format.commitmessagecolumns)" || {
+		msg="$(fmt.exe -s -w "$columns" "$1" -p '#' | \
+			fmt.exe -s -w "$columns" -)" &&
+		printf "%s" "$msg" >"$1"
+	}
+	;;
+esac
+```
+
+Open a new _Cmder_ terminal and enter `notepad++`. Notepad++ should start.
+
+## Compile and run a Java Application from the Command Line
+
+1. Create an empty folder e.g. helloworld
+2. Create a new file `HelloWorld.java`. Copy the following content to this file:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+3. Create a _.class_ file by using the _javac_ compiler:
+
+```
+javac HelloWorld.java
+```
+
+4. Run the compiled _.class_ file:
+
+```
+ java HelloWorld
+```
+
+Your output should look like:
+
+```
+λ java HelloWorld.java
+Hello World
+```
+
+
+
 ## Install Maven
 
 Apache Maven is a software project management and comprehension tool.
@@ -651,7 +747,7 @@ Check the change and run with a different JDK:
 
 <br/>
 
-## Add the Install Path of Git
+## Add the Installation Path of Git in IntelliJ
 
 Git was installed with the installation of _Cmder_. The install path of git is `%CMDER_ROOT\vendor\git-for-windows\bin\git.exe`.
 

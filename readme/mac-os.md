@@ -10,6 +10,7 @@ The following tool stack is supporting you to do various tasks more easily.
 - [Install Homebrew](#install-homebrew)
 - [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
 - [Install a JDK Console Switch](#install-a-jdk-console-switch)
+- [Compile and run a Java Application from the Command Line](#compile-and-run-a-java-application-from-the-command-line)
 - [Install Maven](#install-maven)
 - [Install Gradle](#install-gradle)
 - [Install IntelliJ Ultimate Edition](#install-intellij-ultimate-edition)
@@ -249,6 +250,40 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)
 
 ```
 <br/>
+
+## Compile and run a Java Application from the Command Line
+
+1. Create an empty folder e.g. helloworld
+2. Create a new file `HelloWorld.java`. Copy the following content to this file:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+3. Create a _.class_ file by using the _javac_ compiler:
+
+```
+javac HelloWorld.java
+```
+
+4. Run the compiled _.class_ file:
+
+```
+ java HelloWorld
+```
+
+Your output should look like:
+
+```
+λ java HelloWorld.java
+Hello World
+```
+
+
 
 ## Install Maven
 
