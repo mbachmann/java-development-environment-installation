@@ -18,6 +18,7 @@ The following tool stack is supporting you to do various tasks more easily.
 - [Add the Installation Path of Git in IntelliJ](#add-the-installation-path-of-git-in-intellij)
 - [Configure Cmder in IntelliJ](#configure-cmder-in-intellij)
 - [Install additional IntelliJ Plugins](#install-additional-intellij-plugins)
+- [Install the Java FX Scene Builder](#install-the-java-fx-scene-builder)
 
 <br/>
 

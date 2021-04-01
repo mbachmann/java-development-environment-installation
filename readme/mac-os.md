@@ -16,6 +16,7 @@ The following tool stack is supporting you to do various tasks more easily.
 - [Install IntelliJ Ultimate Edition](#install-intellij-ultimate-edition)
 - [First start of IntelliJ Ultimate](#first-start-of-intellij-ultimate)
 - [Install additional IntelliJ Plugins](#install-additional-intellij-plugins)
+- [Install the Java FX Scene Builder](#install-the-java-fx-scene-builder)
 
 <br/>
 
