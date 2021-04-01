@@ -5,7 +5,7 @@ For a smooth and easy Java development experience some prerequisites are require
 Unfortunately an IDE - Integrated Development environment for developing a sophisticated team project is not enough.
 The following tool stack is supporting you to do various tasks more easily.
 
-- [Install an Archiver und Extractor Tool](#install-an-archiver-und-extractor-tool)
+- [Install an Archiver and Extractor Tool](#install-an-archiver-and-extractor-tool)
 - [Install a simple Text Editor (Notepad++)](#install-a-simple-text-editor-notepad)
 - [Install Cmder - a flexible console for windows](#install-cmder-with-git)
 - [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
@@ -21,7 +21,7 @@ The following tool stack is supporting you to do various tasks more easily.
 
 <br/>
 
-## Install an Archiver und Extractor Tool
+## Install an Archiver and Extractor Tool
 
 There are several options of powerful archivers and extractors on Windows:
 
