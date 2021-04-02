@@ -76,20 +76,6 @@ Mke sure you download the full version including git.
 
 <br/>
 
-### Display File Extensions and Hidden Files and Folder
-
-A lot of files folder are created with a dot at the beginning. Make sure you can see all your files in the file explorer.
-
-1. Open File Explorer; if you do not have an icon for this in the task bar; click Start, click Windows System, and then File Explorer.
-2. Click the View tab in File Explorer.
-3. Click the box next to File name extensions to see file extensions.
-4. Click the box next to Hidden items to see hidden files.
-
-<br/>
-
-![windows-show-extensions-and-hidden-files.png](windows-show-extensions-and-hidden-files.png)
-
-<br/>
 
 ### Install Cmder
 
@@ -202,6 +188,22 @@ Your output should look like:
 username@W10 /c/dev/tools/cmder
 λ git --version
 ```
+
+### Display File Extensions and Hidden Files and Folder
+
+A lot of files folder are created with a dot at the beginning. Make sure you can see all your files in the file explorer.
+
+1. Open File Explorer; if you do not have an icon for this in the task bar; click Start, click Windows System, and then File Explorer.
+2. Click the View tab in File Explorer.
+3. Click the box next to File name extensions to see file extensions.
+4. Click the box next to Hidden items to see hidden files.
+
+<br/>
+
+![windows-show-extensions-and-hidden-files.png](windows-show-extensions-and-hidden-files.png)
+
+<br/>
+
 
 ## Install various JDK's (8, 11, 16 or later)
 
