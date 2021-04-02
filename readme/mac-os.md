@@ -125,7 +125,7 @@ run by the JVM and JRE.
 The last _JDK_ including _Java Fx_ is the **JDK 8 (LTS) from Oracle**. In order to download the Oracle
 _JDK's_ you need to create an account at Oracle:
 
-- [Oracle Sign in / Sing up](https://login.oracle.com/mysso/signon.jsp)
+- [Oracle Sign in / Sing up](https://www.oracle.com/)
 
 Here you can download the various JDK's:
 

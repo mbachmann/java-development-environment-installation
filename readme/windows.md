@@ -6,8 +6,8 @@ Unfortunately an IDE - Integrated Development environment for developing a sophi
 The following tool stack is supporting you to do various tasks more easily.
 
 - [Install an Archiver and Extractor Tool](#install-an-archiver-and-extractor-tool)
-- [Install a simple Text Editor (Notepad++)](#install-a-simple-text-editor-notepad)
-- [Install Cmder - a flexible console for windows](#install-cmder-with-git)
+- [Install a simple Text Editor (notepad++)](#install-a-simple-text-editor-notepad)
+- [Install Cmder with Git](#install-cmder-with-git)
 - [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
 - [Install a JDK Console Switch](#install-a-jdk-console-switch)
 - [Compile and run a Java Application from the Command Line](#compile-and-run-a-java-application-from-the-command-line)
@@ -223,7 +223,7 @@ run by the JVM and JRE.
 The last _JDK_ including _Java Fx_ is the **JDK 8 (LTS) from Oracle**. In order to download the Oracle
 _JDK's_ you need to create an account at _Oracle_:
 
-- [Oracle Sign in / Sing up](https://login.oracle.com/mysso/signon.jsp)
+- [Oracle Sign in / Sing up](https://www.oracle.com/)
 
 Here you can download the various JDK's:
 
