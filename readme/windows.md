@@ -1,7 +1,7 @@
 # Java Development Environment for Windows
 
 
-<i class="fas fa-youtube" aria-hidden="true"></i> [YouTube Video](https://youtu.be/hIfoSy82a_U)
+![youtube-icon-24.png](youtube-icon-24.png) [This Tutorial as YouTube Video](https://youtu.be/hIfoSy82a_U){:target="_blank"}
 
 For a smooth and easy Java development experience some prerequisites are required.
 Unfortunately an IDE - Integrated Development environment for developing a sophisticated team project is not enough.
