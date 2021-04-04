@@ -33,7 +33,7 @@ BBedit will fall back to the community edition after 30 days (which is ok)!
 
 ## Install XCode
 
- Xcode provides developers a unified workflow for user interface design, coding, testing, and debugging.
+ XCode provides developers a unified workflow for user interface design, coding, testing, and debugging.
 
 Open the App Store and search for XCode.
 
@@ -46,7 +46,7 @@ Please start XCode after installation... you will be asked installing some addit
 ## Install the XCode Command Line Tools
 
 The Command Line Tools Package is a small self-contained
-package available for download separately from Xcode
+package available for a download separately from Xcode
  that allows you to do command line development in macOS.
 It consists of the macOS SDK and command-line tools such as Clang,
 which are installed at this location: `/Library/Developer/CommandLineTools`.
