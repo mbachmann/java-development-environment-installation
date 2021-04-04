@@ -5,7 +5,7 @@
 
 For a smooth and easy Java development experience some prerequisites are required.
 Unfortunately an IDE - Integrated Development environment for developing a sophisticated team project is not enough.
-The following tool stack is supporting you to do various tasks more easily.
+The following tool stack is supporting you doing various tasks more easily.
 
 - [Install an Archiver and Extractor Tool](#install-an-archiver-and-extractor-tool)
 - [Install a simple Text Editor (notepad++)](#install-a-simple-text-editor-notepad)
