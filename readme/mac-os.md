@@ -2,7 +2,7 @@
 
 For a smooth and easy Java development experience some prerequisites are required.
 Unfortunately an IDE - Integrated Development environment for developing a sophisticated team project is not enough.
-The following tool stack is supporting you to do various tasks more easily.
+The following tool stack is supporting you doing various tasks more easily.
 
 - [Install a simple Text Editor (Sublime, BBEdit or similar)](#install-a-simple-text-editor-sublime-bbedit-or-similar)
 - [Install XCode](#install-xcode)
