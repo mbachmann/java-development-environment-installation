@@ -1,6 +1,8 @@
 # Java Development Environment for Windows
 
 
+<i class="fas fa-youtube" aria-hidden="true"></i> [YouTube Video](https://youtu.be/hIfoSy82a_U)
+
 For a smooth and easy Java development experience some prerequisites are required.
 Unfortunately an IDE - Integrated Development environment for developing a sophisticated team project is not enough.
 The following tool stack is supporting you to do various tasks more easily.
