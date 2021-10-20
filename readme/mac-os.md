@@ -8,7 +8,7 @@ The following tool stack is supporting you doing various tasks more easily.
 - [Install XCode](#install-xcode)
 - [Install the XCode Command Line Tools](#install-the-xcode-command-line-tools)
 - [Install Homebrew](#install-homebrew)
-- [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
+- [Install various JDK's (8, 11, 17)](#install-various-jdks-8-11-17-or-later)
 - [Install a JDK Console Switch](#install-a-jdk-console-switch)
 - [Compile and run a Java Application from the Command Line](#compile-and-run-a-java-application-from-the-command-line)
 - [Install Maven](#install-maven)
@@ -107,7 +107,7 @@ Homebrew/homebrew-cask (git revision 98c2a; last commit 2020-10-16)
 
 <br/>
 
-## Install various JDK's (8, 11, 16 or later)
+## Install various JDK's (8, 11, 17 or later)
 
 The Java Development Kit (JDK) is one of three core technology packages used in
 Java programming, along with the JVM (Java Virtual Machine)
@@ -147,9 +147,9 @@ Your output should look like (depending on your Java version):
 
 ```
 513 mbach:~ $ java -version
-java version "16" 2021-03-16
-Java(TM) SE Runtime Environment (build 16+36-2231)
-Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 514 mbach:~ $ 
 ```
 
@@ -175,7 +175,7 @@ Your output should look like (depending on your installed JDK's):
 
 ```
 Matching Java Virtual Machines (7):
-    16,     x86_64:	"Java SE 16"	    /Library/Java/JavaVirtualMachines/jdk-16.jdk/Contents/Home
+    17,     x86_64:	"Java SE 17"	    /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
     14.0.1, x86_64:	"Java SE 14.0.1"	/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home
     13.0.2, x86_64:	"Java SE 13.0.2"	/Library/Java/JavaVirtualMachines/jdk-13.0.2.jdk/Contents/Home
     11.0.1, x86_64:	"Java SE 11.0.1"	/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home
@@ -205,11 +205,11 @@ If the file **.bash_profile** is not available... please create it. Use a text e
 alias j8="export JAVA_HOME=`/usr/libexec/java_home -v 1.8`; java -version; echo `/usr/libexec/java_home -v 1.8` ;  "
 alias j11="export JAVA_HOME=`/usr/libexec/java_home -v 11`; java -version; echo `/usr/libexec/java_home -v 11` ; "
 alias j14="export JAVA_HOME=`/usr/libexec/java_home -v 14`; java -version; echo `/usr/libexec/java_home -v 14` ; "
-alias j16="export JAVA_HOME=`/usr/libexec/java_home -v 16`; java -version; echo `/usr/libexec/java_home -v 16` ; "
+alias j17="export JAVA_HOME=`/usr/libexec/java_home -v 17`; java -version; echo `/usr/libexec/java_home -v 17` ; "
 
 #########################
-# Default Java = JDK 16
-# j16
+# Default Java = JDK 17
+# j17
 ```
 
 <br/>
@@ -222,7 +222,7 @@ Enter the commands:
 
 ```
 j8
-j16
+j17
 j11
 ```
 <br/>
@@ -236,11 +236,11 @@ Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
 Java HotSpot(TM) 64-Bit Server VM (build 25.251-b08, mixed mode)
 /Library/Java/JavaVirtualMachines/jdk1.8.0_251.jdk/Contents/Home
 
-504 mbach:~ $ **j16
-java version "16" 2021-03-16
-Java(TM) SE Runtime Environment (build 16+36-2231)
-Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
-/Library/Java/JavaVirtualMachines/jdk-16.jdk/Contents/Home
+504 mbach:~ $ j17
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
+/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
 
 505 mbach:~ $ j11
 java version "11.0.1" 2018-10-16 LTS

@@ -10,7 +10,7 @@ The following tool stack is supporting you doing various tasks more easily.
 - [Install an Archiver and Extractor Tool](#install-an-archiver-and-extractor-tool)
 - [Install a simple Text Editor (notepad++)](#install-a-simple-text-editor-notepad)
 - [Install Cmder with Git](#install-cmder-with-git)
-- [Install various JDK's (8, 11, 16 or later)](#install-various-jdks-8-11-16-or-later)
+- [Install various JDK's (8, 11, 17 or later)](#install-various-jdks-8-11-17-or-later)
 - [Install a JDK Console Switch](#install-a-jdk-console-switch)
 - [Compile and run a Java Application from the Command Line](#compile-and-run-a-java-application-from-the-command-line)
 - [Install Maven](#install-maven)
@@ -207,7 +207,7 @@ A lot of files folder are created with a dot at the beginning. Make sure you can
 <br/>
 
 
-## Install various JDK's (8, 11, 16 or later)
+## Install various JDK's (8, 11, 17 or later)
 
 The_ Java Development Kit (JDK)_ is one of three core technology packages used in
 Java programming, along with the _JVM (Java Virtual Machine)_
@@ -249,9 +249,9 @@ Your output should look like (depending on your Java version):
 
 ```
 λ java -version
-java version "16" 2021-03-16
-Java(TM) SE Runtime Environment (build 16+36-2231)
-Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 username@W10 /c/dev/tools/cmder
 λ
 ```
@@ -286,7 +286,7 @@ The illustration shows three installed _jdk's_:
 
 - jdk1.8.0_281
 - jdk-14
-- jdk-16
+- jdk-17
 
 ### 2. Update the file _user_profile.sh_
 
@@ -315,10 +315,10 @@ j14 () {
   echo "Java 14 activated."
 }
 
-j16 () {
-  export JAVA_HOME="/c/Program Files/Java/jdk-16"
-  export PATH="/c/Program Files/Java/jdk-16/bin":${PATH}
-  echo "Java 16 activated."
+j17 () {
+  export JAVA_HOME="/c/Program Files/Java/jdk-17"
+  export PATH="/c/Program Files/Java/jdk-17/bin":${PATH}
+  echo "Java 17 activated."
 }
 
 ```
@@ -326,7 +326,7 @@ j16 () {
 ### 3. Create an Environment Variable _JAVA_HOME_
 
 Follow the instructions at [Cmder](#2-create-a-windows-environment-variable-cmder_root)
-and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `C:\Program Files\Java\jdk-16`.
+and create variable `JAVA_HOME` which points to you latest _jdk version_: e.g. `C:\Program Files\Java\jdk-17`.
 
 <br/>
 
@@ -377,7 +377,7 @@ Enter the commands:
 
 ```
 j8
-j16
+j17
 j11
 ```
 <br/>
@@ -403,13 +403,13 @@ Java(TM) SE Runtime Environment (build 14+36-1461)
 Java HotSpot(TM) 64-Bit Server VM (build 14+36-1461, mixed mode, sharing)
 username@W10 /c/dev/tools/cmder
 
-λ j16
-Java 16 activated.
+λ j17
+Java 17 activated.
 username@W10 /c/dev/tools/cmder
 λ java -version
-java version "16" 2021-03-16
-Java(TM) SE Runtime Environment (build 16+36-2231)
-Java HotSpot(TM) 64-Bit Server VM (build 16+36-2231, mixed mode, sharing)
+java version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 username@W10 /c/dev/tools/cmder
 ```
 <br/>
@@ -561,7 +561,7 @@ Your output should look like:
 λ mvn --version
 Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
 Maven home: C:\dev\tools\apache-maven-3.6.3
-Java version: 16, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-16
+Java version: 17, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17
 Default locale: de_CH, platform encoding: Cp1252
 OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
 ```
@@ -639,7 +639,7 @@ Revision:     9e26b4a9ebb910eaa1b8da8ff8575e514bc61c78
 Kotlin:       1.4.20
 Groovy:       2.5.12
 Ant:          Apache Ant(TM) version 1.10.9 compiled on September 27 2020
-JVM:          16 (Oracle Corporation 16+36-2231)
+JVM:          17 (Oracle Corporation 17+36-2231)
 OS:           Windows 10 10.0 amd64
 ```
 
